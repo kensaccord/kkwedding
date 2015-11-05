@@ -1,104 +1,74 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿<!Doctype html>
+<html lang="en">
+<head>
+    <title>KeShia Simmons and Kendrick Thomas Wedding</title>
+    <meta charset="utf-8" />
+    <link href="~/wwwroot/css/home.css" rel="stylesheet" />
+    <script src="Scripts/jquery-ui-1.11.4/external/jquery/jquery.js"></script>
+    <script src="Scripts/jquery-ui-1.11.4/jquery-ui.js"></script>
+    <link href="Scripts/jquery-ui-1.11.4/jquery-ui.css" rel="stylesheet" />
+    <link href="Scripts/jquery-ui-1.11.4.custom/jquery-ui.theme.css" rel="stylesheet" />
+    <!--sscript src="Scripts/angular.min.js"></script-->
+    <!--script src="Scripts/todo.js"></script-->
+    <!--link rel="stylesheet" href="Css/todo.css"-->
+</head>
+<body>
+    <h1>KeShia's and Kendrick's Wedding</h1>
+    <div id="tabsMain">
+        <ul>
+            <li><a href="#tabs-Home">Home</a></li>
+            <li><a href="#tabs-OurStory">Our Story</a></li>
+            <li><a href="#tabs-Accommodations">Accommodations</a></li>
+            <li><a href="#tabs-Registry">Registry</a></li>
+            <li><a href="#tabs-Events">Events</a></li>
+            <li><a href="#tabs-ContactUs">Contact Us</a></li>
+        </ul>
+        <div id="tabs-Home">
+            <img src="images/DSC_0308.JPG" />
+            <!--<img src="images/DSC_0339.JPG" />
+            <img src="images/DSC_0183.JPG" />
+            <img src="images/DSC_0107.JPG" />-->
+        </div>
+        <div id="tabs-OurStory">
+            <h2>KeShia's Story</h2>
+            <p id="keshiaStorys">
+                Boo-hoo’d like a baby while listening to this on my way to work this morning. GRACE.
+                Almost a year ago, I fb’d Ken to ask him about a church that my coworker raved about
+                (thanks Mark!) that I recalled Ken “checking into” (even though I barely knew him….we
+                had met at a comedy club 4/5 years prior for a friends bday (thanks Arlenea! Thanks
+                Tice Owens!) Grey and I had just moved out after living with family during my pregnancy
+                and most of his first year. (thanks Linsey Babitzke Simmons) and I really wanted to
+                find a church home. Me- I see you check in at Gateway….how do you like it? Ken- I love
+                it..;If you need someone to go with… FIRST “DATE” was to church at Gateway Church and
+                then dinner at the Cheesecake Factory. PATIENCE. It really IS a virtue and he must be
+                a monk. smile emoticon Resistant isn’t the word. Past disappointments had me jaded
+                and dating was the LAST thing on my mind; my only focus was to be a good mom, work,
+                and that was about it. RESILIANT. Ken was patient, consistent, and a really great
+                friend and after 4/5 months, I agreed to be his girlfriend. He adores me. He loves
+                my son. He loves God. Fast forward to now... GRATEFUL. Not what I deserved. GRACE
+                ‪#‎foriknowtheplansihaveforyou‬ ‪#‎jeremiah2911‬ I love you Kendrick!
+            </p>
+            <h2>Kendrick's Story</h2>
+            <p id="kenStory">
+                Kendrick is going to enter his story here after he writes it.
+            </p>
+        </div>
+        <div id="tabs-Accommodations">
+            <p>
+                <table></table>
+            </p>
+        </div>
+        <div id="tabs-Registry">
+            <p>Enter registry information</p>
+        </div>
+        <div id="tabs-Events">
+            <p>Entet the wedding events here</p>
+        </div>
+        <div id="tabs-ContactUs">
+            <p>Enter contact information</p>
+        </div>
+    </div>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/ASP-NET-Banners-01.png" alt="ASP.NET" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how to build ASP.NET apps that can run anywhere.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-02-VS.png" alt="Visual Studio" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        There are powerful new features in Visual Studio for building modern web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/ASP-NET-Banners-02.png" alt="Package Management" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Bring in libraries from NuGet, Bower, and npm, and automate tasks using Grunt or Gulp.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525029&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/Banner-01-Azure.png" alt="Microsoft Azure" class="img-responsive">
-            <div class="container">
-                <div class="carousel-caption">
-                    <p>
-                        Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                        <a class="btn btn-default btn-default" href="http://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                            Learn More
-                        </a>
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET 5 (MVC 6)</li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518007">Gulp</a> and <a href="http://go.microsoft.com/fwlink/?LinkId=518004">Bower</a> for managing client-side resources</li>
-            <li>Theming using <a href="http://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>New concepts</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of ASP.NET 5</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkId=518008">Fundamentals in ASP.NET 5</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517849">Client-Side Development using npm, Bower and Gulp</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517850">Develop on different platforms</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Customize app</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398600">Add Controllers and Views</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398602">Add Data using EntityFramework</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398603">Add Authentication using Identity</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517848">Manage client-side packages using Bower/ Gulp</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Deploy</h2>
-        <ul>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517851">Run your app locally</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517852">Run your app on .NET Core</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=517853">Run commands in your app</a></li>
-            <li><a href="http://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
-</div>
+    <script src="~/wwwroot/js/home.js"></script>
+</body>
+</html>

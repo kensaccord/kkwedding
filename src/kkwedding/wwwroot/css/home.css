@@ -1,0 +1,47 @@
+﻿/*
+    Slate Blue - #8395A1
+    Slate Light Blue - #99ABAF
+    Pink - #E8A9A0
+    Pink Light - #EECDC4
+    Gray - #D9CBC0
+    Green - #2A321D
+    Navy - #000066
+*/
+
+body {
+    /*background-image: url('../images/DSC_0308.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    */
+    background-color:#D9CBC0;
+    text-align: center;
+    color: #000066;
+
+}
+
+#tabsMain{
+    background-color:#EECDC4;
+    margin: auto;
+    width: 60%;
+    border:3px solid #2A321D;
+    padding: 10px;
+}
+
+#tabs-Home img{
+    max-width: 1000px;
+    max-height: 350px;
+    border: 3px solid #8395A1;
+}
+
+h1{
+    top:auto;
+}
+footer{
+    color: #000066;
+    background-color: #8395A1;
+    margin: auto;
+    width: 60%;
+    border:3px solid #2A321D;
+    padding: 10px;
+}
