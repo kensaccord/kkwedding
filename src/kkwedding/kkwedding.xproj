@@ -15,6 +15,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <DevelopmentServerPort>63381</DevelopmentServerPort>
     <ApplicationInsightsResourceId>/subscriptions/103bd3e3-4903-4bd6-abfc-ed34a8cf30e2/resourcegroups/KKResourceGroup/providers/microsoft.insights/components/kkwedding</ApplicationInsightsResourceId>
+    <IISExpressWindowsAuthentication>Enabled</IISExpressWindowsAuthentication>
   </PropertyGroup>
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
 </Project>
