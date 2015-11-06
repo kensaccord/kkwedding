@@ -1,6 +1,18 @@
-﻿body {
+﻿/*
+    Slate Blue - #8395A1
+    Slate Light Blue - #99ABAF
+    Pink - #E8A9A0
+    Pink Light - #EECDC4
+    Gray - #D9CBC0
+    Green - #2A321D
+    Navy - #000066
+*/
+
+body {
     padding-top: 50px;
     padding-bottom: 20px;
+    background-color:#D9CBC0;
+    color: #000066;
 }
 
 /* Wrapping element */
@@ -31,4 +43,10 @@ textarea {
     .carousel-caption {
         z-index: 10 !important;
     }
+}
+
+footer{
+    color: #000066;
+    background-color: #8395A1;
+    border:3px solid #2A321D;
 }

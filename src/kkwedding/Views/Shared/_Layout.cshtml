@@ -22,6 +22,7 @@
         @Html.ApplicationInsightsJavaScript(TelemetryConfiguration)
     </head>
     <body>
+        <img src="~/wwwroot/images/kandk.jpg" />
         <div class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
@@ -35,6 +36,10 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav">
                         <li><a asp-controller="Home" asp-action="Index">Home</a></li>
+                        <li><a asp-controller="Home" asp-action="OurStory">Our Story</a></li>
+                        <li><a asp-controller="Home" asp-action="Events">Events</a></li>
+                        <li><a asp-controller="Home" asp-action="Registry">Registry</a></li>
+                        <li><a asp-controller="Home" asp-action="Accommodations">Accommodations</a></li>
                         <li><a asp-controller="Home" asp-action="About">About</a></li>
                         <li><a asp-controller="Home" asp-action="Contact">Contact</a></li>
                     </ul>
