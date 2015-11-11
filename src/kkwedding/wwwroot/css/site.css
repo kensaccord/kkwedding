@@ -49,7 +49,7 @@ textarea {
     }
 }
 
-h1, h2, h3{
+h1, h2, h3, h4, h5, h6{
     font-family:'Script MT';
     text-align: center;
 }
@@ -63,5 +63,5 @@ header{
 footer{
     color: #FEF2E6;
     background-color: #633e2b;
-    border:3px solid #3cefea;
+    border:3px solid #e69053;
 }
