@@ -22,14 +22,14 @@ namespace kkwedding.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Mailing Address.";
 
             return View();
         }
 
         public IActionResult OurStory()
         {
-            ViewData["Message"] = "This is our story";
+            ViewData["Message"] = "These are our stories";
 
             return View();
         }

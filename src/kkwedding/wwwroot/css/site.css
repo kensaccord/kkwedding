@@ -45,6 +45,12 @@ textarea {
     }
 }
 
+header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
 footer{
     color: #000066;
     background-color: #8395A1;
