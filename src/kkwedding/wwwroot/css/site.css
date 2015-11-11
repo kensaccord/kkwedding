@@ -11,8 +11,10 @@
 body {
     padding-top: 50px;
     padding-bottom: 20px;
-    background-color:#D9CBC0;
-    color: #000066;
+    background-color:#FEF2E6;
+    color: #633e2b;
+    font-family:'Script MT';
+    text-align: center;
 }
 
 /* Wrapping element */
@@ -20,6 +22,8 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
+    font-family:'Script MT';
+    text-align: center;
 }
 
 /* Set widths on the form inputs since otherwise they're 100% wide */
@@ -45,6 +49,11 @@ textarea {
     }
 }
 
+h1, h2, h3{
+    font-family:'Script MT';
+    text-align: center;
+}
+
 header{
     margin-left: auto;
     margin-right: auto;
@@ -52,7 +61,7 @@ header{
 }
 
 footer{
-    color: #000066;
-    background-color: #8395A1;
-    border:3px solid #2A321D;
+    color: #FEF2E6;
+    background-color: #633e2b;
+    border:3px solid #3cefea;
 }
