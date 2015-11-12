@@ -1,5 +1,13 @@
 {
   "ApplicationInsights": {
     "InstrumentationKey": "e8e58aed-5e82-4a93-97ee-7cfdcee89071"
+  },
+  "AppSettings": {
+    "SiteTitle": "kkwedding"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-kkwedding-b49c7607-d201-41d2-a78f-d251f8e9ed03;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
   }
 }
