@@ -70,3 +70,9 @@ footer{
     font-size:large;
     background-color: #633e2b;
 }
+img{
+    max-width: 400px;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
