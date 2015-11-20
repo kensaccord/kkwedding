@@ -24,6 +24,7 @@
     <body>
         <header>
             <img src="~/images/kandk.jpg" alt="ASP.NET" class="img-responsive" />
+            
         </header>
         <div id="navbarid"class="navbar navbar-inverse navbar-fixed-top">
             <div class="container">
@@ -49,6 +50,9 @@
         </div>
         <div class="container body-content">
             @RenderBody()
+            <div class="countdown">
+                @ViewData["CountDown"]
+            </div>
             <hr />
             <footer>
                 <p>&copy; 2015 - Ken's Custom Web Sites</p>

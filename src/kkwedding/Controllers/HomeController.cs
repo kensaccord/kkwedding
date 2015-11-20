@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
+using kkwedding.Models.Helpers;
 
 namespace kkwedding.Controllers
 {
@@ -10,6 +11,9 @@ namespace kkwedding.Controllers
     {
         public IActionResult Index()
         {
+            HomeHelper hm = new HomeHelper();
+            
+            ViewData["CountDown"] = hm.GetCountDown(); ;
             return View();
         }
 
@@ -43,7 +47,7 @@ namespace kkwedding.Controllers
 
         public IActionResult Registry()
         {
-            ViewData["Message"] = "These are the places we are registred";
+            ViewData["Message"] = "These are the places we are registered";
 
             return View();
         }

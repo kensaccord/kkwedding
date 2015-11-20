@@ -22,7 +22,7 @@ body {
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
-    font-family:'Script MT';
+    font-family:'Comic Sans MS';
     text-align: center;
 }
 
@@ -75,4 +75,8 @@ img{
     max-height: 400px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.countdown{
+    font-size:40px;
 }
